@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Music WebApp</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+<div class="main_div">
+    <div class="music_container">
+        <h2 id="title">Ye raatein ye mausam</h2>
+        <h3 id="artist">Sanam puri</h3>
+        <div class="img_container">
+            <img src="images/sanam-1.jpg" alt class="anime">
+        </div>
+        <audio src="music/Yeh Raatein Yeh Mausam.mp3"></audio>
+
+        <!-- progress bar -->
+        <div class="progressbar_container" id="progress_container">
+            <div class="progress_duration_meter">
+                <div id="current_time">0:00</div>
+                <div id="duration">5.30</div>
+            </div>
+            <div class="progress_div" id="progress_div">
+                <div class="progress" id="progress"></div>
+            </div>
+        </div>
+
+        <!-- controls -->
+        <div class="music_controls">
+            <i class="fa fa-backward" id="prev" title="Previous"></i>
+            <i class="fa fa-play main_button" id="play" title="Play"></i>
+            <i class="fa fa-forward" id="next" title="Next"></i>
+        </div>
+    
+        </div>
+    </div>
+</div>
+
+</body>
+</html>
